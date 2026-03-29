@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========================================
+         1단계: 프로젝트 제목 입력하기
+         아래 title 태그 안에 프로젝트 이름을 써주세요
+    ======================================== -->
+    <title>Ocean Awareness(Otter)</title>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ========================================
+         2단계: 네비게이션 바 만들기
+         nav = 메뉴 모음
+    ======================================== -->
+    <nav class="nav-bar">
+        <div class="nav-logo">Learn deeply about sea otters</div>
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#problem">Problem</a>
+            <a href="#Cartoon">Cartoon</a>
+            <a href="#Game">Game</a>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         3단계: 히어로 섹션 (첫 화면)
+         section = 웹페이지의 한 구역
+         class = CSS 스타일을 연결하는 이름표
+    ======================================== -->
+    <section id="hero" class="section hero-section">
+        <div class="hero-bg-animation"></div>
+        <div class="container">
+            <div class="hero-content">
+                <!-- 배지: 짧은 소개 문구 -->
+                <span class="hero-badge">Ocean Awareness experience</span>
+
+                <!-- 메인 제목: h1은 가장 큰 제목 -->
+                <h1>Learn and discover <span class="highlight-text">Sea Otters and how we can help them</span></h1>
+
+                <!-- 부제목: 프로젝트 설명 -->
+                <p class="hero-subtitle">
+                    Sea otters don’t just float around thinking about nothing. When I saw the sea otters float, 
+                    I realized that they don’t float to do nothing, 
+                    they are relying on something that is strong enough to hold them. 
+                    Through Sea otters and the ocean, I noticed and saw that 
+                    we are all supported by systems larger than ourselves. Also since I like sea otters and
+                    that they are cute, I discovered that they are having a hard time living because of several
+                    things. Since I researched  more about how we can help sea otters I will tell you a lot of things
+                    about them.
+                </p>
+
+                <!-- 통계 카드: 숫자로 보여주는 정보 -->
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">71%</span>
+                        <span class="stat-label">of the Earth is covered by the ocean</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">230,000</span>
+                        <span class="stat-label">marine species have been officially identified</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1,500–2,000</span>
+                        <span class="stat-label">marine species are used as food worldwide</span>
+                    </div>
+                </div>
+
+                <!-- CTA 버튼: Call To Action (행동 유도) -->
+                <a href="#problem" class="cta-button">Scroll Down Button</a>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         4단계: 문제 섹션
+         어떤 문제가 있는지 설명하는 구역
+    ======================================== -->
+    <section id="problem" class="section problem-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Learn the probelms sea otters are facing
+                </span>
+                <h2>Problems</h2>
+                
+            </div>
+
+            <!-- 문제 카드들: 각각의 문제를 카드 형태로 -->
+            <div class="problem-grid">
+                <!-- 문제 카드 1 -->
+                <div class="problem-card">
+                    <div class="problem-icon"></div>
+                    <h3>Sea otter need to be in cold spaces!</h3>
+                    <p>
+                        sea otters and other animals are dying because of global warming. Sea otters need to live in cold places but since it's getting warmer they are having a hard time
+                    </p>
+                    <div class="problem-stat">
+                        <span class="stat-highlight">125,000</span>
+                        <span>sea otters only living</span>
+                    </div>
+                </div>
+
+                <!-- 문제 카드 2 -->
+                <div class="problem-card">
+                    <div class="problem-icon"></div>
+                    <h3>Oil Spills</h3>
+                    <p>
+                       Oil spills are a problem sea otters are facing because if oil is all around the ocean then, the oil probably touch the sea otter’s fur. Since sea otters groom themselves a lot, they might get sick or poisoned.
+
+                    </p>
+                    
+                </div>
+
+                <!-- 문제 카드 3 -->
+                <div class="problem-card">
+                    <div class="problem-icon"></div>
+                    <h3>Harmful Waste
+</h3>
+                    <p>
+                        Waste from land such as chemicals or plastic can hurt sea otters. For example if poisonous chemicals or plastic goes on the food or animals the sea otters eat the sea otters will probably die.
+
+                    </p>
+                    
+                </div>
+
+              
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!-- ========================================
+         5단계: My story and how it led me to thinking
+         about sea otters.(Poem)
+    ======================================== -->
+    <section id="My story" class="section My story-section">
+        <div class="container">
+
+        <p class="section-header">Title: (Sea Otters don’t just float)
+ When I looked at the Sea otter floating like a balloon
+		I thought, that it was having a nice time
+		        But when I went researching
+		          Everything was different
+	  Sea otters were actually holding kelp while floating
+	  they were relying on a piece of sea object to float.
+	  Also, they eat sea urchins, which help kelps to grow
+	 because sea urchins eat kelp. That helps reduce CO2 
+	  which at the end, helps the ocean stop being white.
+When I read this, I felt surprised, and now I kind of respect them.
+They are like heroes for the ocean!
+What I discovered that moment was that sea otters aren’t just
+animals that chill, they help us live, and other living creatures
+have a great life.
+</p>
+        </div>
+</section>
+
+    <!-- ========================================
+         6단계: 실천 방법 섹션
+         구체적인 행동 방법을 알려주는 구역
+    ======================================== -->
+    <!-- Section: Webtoon Story -->
+   <section id="Cartoon" class="section webtoon-section">
+       <div class="container">
+           <div class="section-header">
+               <span class="section-tag">Story</span>
+               <h2>A sea otter's story</h2>
+               <p class="section-desc">
+                   A hand-written comic about a sea otter's eco-system
+               </p>
+           </div>
+           <div class="webtoon-container">
+               <img src="/static/Images/toon1.png" alt="Webtoon Panel 1" class="webtoon-panel">
+               <img src="/static/Images/toon2.png" alt="Webtoon Panel 2" class="webtoon-panel">
+               <img src="/static/Images/toon3.png" alt="Webtoon Panel 3" class="webtoon-panel">
+               <img src="/static/Images/toon4.png" alt="Webtoon Panel 4" class="webtoon-panel">
+               <img src="/static/Images/toon5.png" alt="Webtoon Panel 5" class="webtoon-panel">
+               <img src="/static/Images/toon6.png" alt="Webtoon Panel 6" class="webtoon-panel">
+           </div>
+       </div>
+   </section>
+
+    <!-- ========================================
+         7단계: 마무리 섹션
+         정리와 성찰 질문
+    ======================================== -->
+    <section id="Game" class="section conclusion-section">
+        <div class="container">
+        <div class="section-header">
+               <span class="section-tag">Game</span>
+               <h2>Scratch Game where you are in a sea otter's perspective</h2>
+               <p class="section-desc">
+                   Play a scratch game that I made for you to understand the concept better
+                   Press the green flag to start. Have Fun!
+               </p>
+           </div>
+         <div class="section scratch">
+       <iframe src="https://scratch.mit.edu/projects/1270676515/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+     </div>
+    </div>
+    </section>
+
+    <!-- ========================================
+         8단계: 푸터 (맨 아래 정보)
+    ======================================== -->
+    <footer class="footer">
+        <div class="container">
+            <p>Ocean Awareness Contest-> My Story, our ocean|How Our Ocean Sustains, Protects, and Inspires Us</p>
+            <p class="footer-note">Made by Yongbee Kim</p>
+        </div>
+    </footer>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
